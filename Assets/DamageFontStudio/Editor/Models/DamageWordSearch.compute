@@ -1,0 +1,36 @@
+#pragma kernel Search
+StructuredBuffer<float> Features;
+StructuredBuffer<float> Template;
+RWStructuredBuffer<float2> Scores;
+int Width, Height, GridWidth, GridHeight, Family, OriginX, OriginY;
+float Step, BoxWidth, BoxHeight;
+
+float ReadMap(int level, float2 p)
+{
+    p = clamp(p, float2(0,0), float2(Width-1.001, Height-1.001));
+    int2 a = (int2)p; float2 t = p-a;
+    int k = ((Family-1)*4+level)*Width*Height + a.y*Width+a.x;
+    return lerp(lerp(Features[k],Features[k+1],t.x),lerp(Features[k+Width],Features[k+Width+1],t.x),t.y);
+}
+[numthreads(8,8,1)]
+void Search(uint3 id : SV_DispatchThreadID)
+{
+    if(id.x>=(uint)GridWidth || id.y>=(uint)GridHeight)return;
+    float2 center = float2(OriginX,OriginY)+float2(id.xy)*Step;
+    float radius=clamp(BoxHeight*.12,1,8);
+    int level=radius<2 ? 0 : radius<4 ? 1 : 2;
+    float r0=level==0?1:level==1?2:4;
+    float blend=(radius-r0)/r0;
+    float sum=0, squared=0, cross=0, norm=0, sumA=0,total=0;
+    for(uint i=0;i<288;i++)
+    {
+        float2 uv=float2((i%24u+.5)/24.,(i/24u+.5)/12.)-.5;
+        float2 p=center+uv*float2(BoxWidth*1.15,BoxHeight*1.3);
+        float v=lerp(ReadMap(level,p),ReadMap(level+1,p),blend), a=Template[i];
+        float weight=saturate((abs(a)-.025)*20);
+        total+=weight;sumA+=weight*a;sum+=weight*v;squared+=weight*v*v;cross+=weight*a*v;norm+=weight*a*a;
+    }
+    total=max(1,total);float energy=max(0,squared-sum*sum/total);
+    norm=max(0,norm-sumA*sumA/total);cross-=sumA*sum/total;
+    Scores[id.y*GridWidth+id.x]=float2(cross/ max(1e-7,sqrt(norm*energy)), max(0,cross/max(1e-7,norm)));
+}

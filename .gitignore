@@ -1,0 +1,42 @@
+# Unity regenerates these local caches and editor preferences.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+
+# Validation copies, generated reports and document render intermediates.
+/tmp/
+/output/
+
+# IDE state and generated solution/project files.
+/.vs/
+/.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.VC.db
+*.opendb
+
+# OS-generated files and local credentials.
+.DS_Store
+Thumbs.db
+Desktop.ini
+sysinfo.txt
+.env
+.env.*
+!.env.example
+
+# Keep Assets (including DLLs, ONNX models, presets and every .meta),
+# Packages and ProjectSettings under version control.

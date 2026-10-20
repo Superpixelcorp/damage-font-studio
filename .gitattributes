@@ -1,0 +1,16 @@
+# Keep Unity's text assets readable and consistent across editor/OS versions.
+* text=auto eol=lf
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.meta text eol=lf
+*.asset text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
+*.shader text eol=lf
+*.compute text eol=lf
+*.onnx binary
+*.dll binary
+*.png binary
+*.ttf binary
+*.pdf binary

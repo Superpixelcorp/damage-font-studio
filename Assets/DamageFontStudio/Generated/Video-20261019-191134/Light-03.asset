@@ -1,0 +1,1114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b630fc1a2c9b44044b17824ad8bb529f, type: 3}
+  m_Name: Light-03
+  m_EditorClassIdentifier: Assembly-CSharp::DamageFontStudio.DamageFontPreset
+  kind: 0
+  animationOnly: 0
+  font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  fontMaterial: {fileID: 2100000, guid: acc00518efdbb3d4587dd32ce87e2f45, type: 2}
+  overrideFontStyle: 1
+  fontStyle: 3
+  fontSize: 44.77533
+  initialColor: {r: 1, g: 1, b: 1, a: 1}
+  initialOpacity: 1
+  initialScale: {x: 0.7424382, y: 1, z: 1}
+  initialRotation: -0
+  segments:
+  - channel: 0
+    start: 0
+    duration: 0.033333335
+    targetVector: {x: -0.34375, y: 1.3478394, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0
+    duration: 0.033333335
+    targetVector: {x: 0.65008557, y: 0.92328614, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0
+    duration: 0.033333335
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0
+    duration: 0.033333335
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.966667
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.033333335
+    duration: 0.033333335
+    targetVector: {x: 1.375, y: 5.054367, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.033333335
+    duration: 0.033333335
+    targetVector: {x: 0.5168494, y: 0.70702446, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.033333335
+    duration: 0.033333335
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.033333335
+    duration: 0.033333335
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 1
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.06666667
+    duration: 0.03333333
+    targetVector: {x: 2.40625, y: 19.195663, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.06666667
+    duration: 0.03333333
+    targetVector: {x: 0.50413483, y: 0.67772895, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.06666667
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.06666667
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.8882627
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.1
+    duration: 0.03333334
+    targetVector: {x: 6.1875, y: 30.706543, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.1
+    duration: 0.03333334
+    targetVector: {x: 0.5168494, y: 0.70702446, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.1
+    duration: 0.03333334
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.1
+    duration: 0.03333334
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.57018197
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.13333334
+    duration: 0.03333333
+    targetVector: {x: 6.875, y: 37.445663, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.13333334
+    duration: 0.03333333
+    targetVector: {x: 0.5168494, y: 0.70702446, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.13333334
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.13333334
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.8352774
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.16666667
+    duration: 0.03333333
+    targetVector: {x: 9.34375, y: 48.239136, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.16666667
+    duration: 0.03333333
+    targetVector: {x: 0.512939, y: 0.6526377, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.16666667
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.16666667
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.7309784
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.2
+    duration: 0.06666668
+    targetVector: {x: 14.78125, y: 64.05437, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.2
+    duration: 0.06666668
+    targetVector: {x: 0.4987164, y: 0.6501219, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.2
+    duration: 0.06666668
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.2
+    duration: 0.06666668
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0.624831
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 0
+    start: 0.26666668
+    duration: 0.03333333
+    targetVector: {x: 14.78125, y: 64.05437, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 1
+    start: 0.26666668
+    duration: 0.03333333
+    targetVector: {x: 0.4987164, y: 0.6501219, z: 1}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 2
+    start: 0.26666668
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: -0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - channel: 3
+    start: 0.26666668
+    duration: 0.03333333
+    targetVector: {x: 0, y: 0, z: 0}
+    positionPath: 0
+    arcHeight: 120
+    targetValue: 0
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+    ease: 1
+    useCurve: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

@@ -1,0 +1,18 @@
+Local text detection and recognition models (Editor only)
+
+PaddleOCR / PP-OCRv3, Copyright (c) PaddlePaddle Authors.
+Redistributed ONNX conversion from RapidAI/RapidOCR, rapidocr-onnxruntime 1.2.3.
+License: Apache License 2.0; see LICENSE.txt.
+https://github.com/PaddlePaddle/PaddleOCR
+https://github.com/RapidAI/RapidOCR
+https://pypi.org/project/rapidocr-onnxruntime/1.2.3/
+
+DamageTextDetector.onnx is the unmodified ch_PP-OCRv3_det_infer.onnx model.
+DamageTextRecognizer.onnx is the unmodified ch_PP-OCRv3_rec_infer.onnx model.
+Characters.txt contains the recognizer's original embedded character dictionary.
+The surrounding Unity preprocessing, numeric filtering and temporal tracking are
+project code. The models locate/read text; they do not recover the source font.
+Models stay in the Editor folder and are not required by exported runtime samples.
+SHA256:
+DamageTextDetector.onnx 3439588C030FAEA393A54515F51E983D8E155B19A2E8ABA7891934C1CF0DE526
+DamageTextRecognizer.onnx 897A3EDEDB38FEE0DAE2C1CCEE38241F37DF202C9509E3ABCA02E9217C5EE615

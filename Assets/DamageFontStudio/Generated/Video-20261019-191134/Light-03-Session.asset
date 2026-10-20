@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f696c9378acf4c74899fa83a0bb84cb4, type: 3}
+  m_Name: Light-03-Session
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DamageFontStudio.Editor.DamageVideoSession
+  videoPath: "C:/Users/apoca/Downloads/\uB179\uD654_2026_10_19_11_38_28_137.mp4"
+  width: 528
+  height: 496
+  frameCount: 1306
+  fps: 29.70435333251953
+  startFrame: 38
+  endFrame: 47
+  limitAnalysisRegion: 1
+  analysisRegion:
+    serializedVersion: 2
+    x: 75
+    y: 89
+    width: 119
+    height: 163
+  regionTruncatedStart: 1
+  regionTruncatedEnd: 0
+  sampleStep: 1
+  searchRadius: 40
+  minimumConfidence: 0.65
+  number: 199
+  font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  fontMaterial: {fileID: 2100000, guid: acc00518efdbb3d4587dd32ce87e2f45, type: 2}
+  autoAppearance: 1
+  lockHorizontalPosition: 1
+  observedEnd: 1
+  removeCameraMotion: 1
+  rangeTruncatedStart: 0
+  rangeTruncatedEnd: 0
+  motionInferred: 0
+  sharedMotion: 0
+  sharedMotionDuration: 0
+  detectedNumber: 199
+  numberConfidence: 0.92681557
+  calibratedFontSize: 44.77533
+  calibratedWidthScale: 0.7424382
+  color: {r: 1, g: 1, b: 1, a: 1}
+  unitsPerPixel: 1
+  samples:
+  - frame: 38
+    timestamp: 1.2666666666666666
+    center: {x: 114.125, y: 226.09784}
+    cameraOffset: {x: 0, y: 0}
+    size: {x: 65, y: 31.759245}
+    angle: 0
+    opacity: 1
+    confidence: 0.73739105
+    manual: 0
+  - frame: 39
+    timestamp: 1.3
+    center: {x: 113.78125, y: 224.75}
+    cameraOffset: {x: 0, y: 0}
+    size: {x: 56.914585, y: 29.32287}
+    angle: 0
+    opacity: 0.966667
+    confidence: 0.73739105
+    manual: 0
+  - frame: 40
+    timestamp: 1.3333333333333333
+    center: {x: 115.5, y: 221.04347}
+    cameraOffset: {x: 0, y: 0}
+    size: {x: 45.249844, y: 22.454563}
+    angle: 0
+    opacity: 1
+    confidence: 0.73739105
+    manual: 0
+  - frame: 41
+    timestamp: 1.3666666666666667
+    center: {x: 116.53125, y: 206.90218}
+    cameraOffset: {x: 0, y: 0}
+    size: {x: 44.13669, y: 21.52416}
+    angle: 0
+    opacity: 0.8882627
+    confidence: 0.73739105
+    manual: 0
+  - frame: 42
+    timestamp: 1.4
+    center: {x: 120.3125, y: 191.3913}
+    cameraOffset: {x: 0, y: -4}
+    size: {x: 45.249844, y: 22.454563}
+    angle: 0
+    opacity: 0.57018197
+    confidence: 0.73739105
+    manual: 0
+  - frame: 43
+    timestamp: 1.4333333333333333
+    center: {x: 121, y: 184.65218}
+    cameraOffset: {x: 0, y: -4}
+    size: {x: 45.249844, y: 22.454563}
+    angle: 0
+    opacity: 0.8352774
+    confidence: 0.73739105
+    manual: 0
+  - frame: 44
+    timestamp: 1.4666666666666666
+    center: {x: 123.46875, y: 173.8587}
+    cameraOffset: {x: 0, y: -4}
+    size: {x: 44.907486, y: 20.727282}
+    angle: 0
+    opacity: 0.7309784
+    confidence: 0.73739105
+    manual: 0
+  - frame: 46
+    timestamp: 1.5333333333333334
+    center: {x: 128.90625, y: 158.04347}
+    cameraOffset: {x: 0, y: -4}
+    size: {x: 43.66231, y: 20.64738}
+    angle: 0
+    opacity: 0.624831
+    confidence: 0.73739105
+    manual: 0
+  - frame: 47
+    timestamp: 1.5666666666666667
+    center: {x: 128.90625, y: 158.04347}
+    cameraOffset: {x: 0, y: -4}
+    size: {x: 43.66231, y: 20.64738}
+    angle: 0
+    opacity: 0
+    confidence: 0.73739105
+    manual: 0

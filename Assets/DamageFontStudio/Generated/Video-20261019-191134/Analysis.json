@@ -1,0 +1,113 @@
+{
+    "video": "C:/Users/apoca/Downloads/녹화_2026_10_19_11_38_28_137.mp4",
+    "width": 528,
+    "height": 496,
+    "fps": 29.70435333251953,
+    "startTime": 1.0,
+    "endTime": 1.800000011920929,
+    "lockHorizontalPosition": true,
+    "cameraMotionRemoved": true,
+    "samples": [
+        {
+            "name": "Light-01",
+            "firstFrame": 32,
+            "endFrame": 47,
+            "onset": 0.06666667014360428,
+            "duration": 0.5,
+            "correlation": 0.6694432497024536,
+            "observedDisappearance": true,
+            "motionInferred": false,
+            "estimatedText": "199",
+            "textConfidence": 0.9651062488555908,
+            "missingFrames": 2,
+            "sharedMotion": false
+        },
+        {
+            "name": "Light-02",
+            "firstFrame": 36,
+            "endFrame": 52,
+            "onset": 0.20000000298023225,
+            "duration": 0.5333333611488342,
+            "correlation": 0.7632493376731873,
+            "observedDisappearance": true,
+            "motionInferred": false,
+            "estimatedText": "1274",
+            "textConfidence": 0.9483621120452881,
+            "missingFrames": 1,
+            "sharedMotion": false
+        },
+        {
+            "name": "Light-03",
+            "firstFrame": 38,
+            "endFrame": 47,
+            "onset": 0.2666666805744171,
+            "duration": 0.30000001192092898,
+            "correlation": 0.7373910546302795,
+            "observedDisappearance": true,
+            "motionInferred": false,
+            "estimatedText": "199",
+            "textConfidence": 0.9268155694007874,
+            "missingFrames": 1,
+            "sharedMotion": false
+        },
+        {
+            "name": "Light-04",
+            "firstFrame": 45,
+            "endFrame": 54,
+            "onset": 0.5,
+            "duration": 0.30000001192092898,
+            "correlation": 0.7489925622940064,
+            "observedDisappearance": false,
+            "motionInferred": false,
+            "estimatedText": "",
+            "textConfidence": 0.0,
+            "missingFrames": 0,
+            "sharedMotion": false
+        },
+        {
+            "name": "Light-05",
+            "firstFrame": 45,
+            "endFrame": 53,
+            "onset": 0.5,
+            "duration": 0.2666666805744171,
+            "correlation": 0.6643853187561035,
+            "observedDisappearance": true,
+            "motionInferred": false,
+            "estimatedText": "18",
+            "textConfidence": 0.9604389667510986,
+            "missingFrames": 1,
+            "sharedMotion": false
+        }
+    ],
+    "limitations": [
+        "Event times use decoded video timestamps. Each observed hit exports its own measured XY, scale and opacity; upward, downward, lateral and turning motion are preserved without a prescribed path shape.",
+        "Detection, motion learning, sessions and playback are restricted to the selected range. A hit still visible at the end is cut at that boundary; its disappearance is not claimed as observed.",
+        "When limitAnalysisRegion is enabled, outside text pixels are masked during detection, repeated-word recovery and refinement. Candidate boxes and inferred continuations must remain entirely within that fixed source-pixel region. Full-frame background pixels are used only to estimate camera translation.",
+        "When cameraMotionRemoved is enabled, estimated background translation is subtracted from each exported trajectory. Raw observations and camera offsets remain in the session; original-screen comparison can reapply camera motion. Rotation, zoom and parallax are not stabilized.",
+        "Signed template regression estimates opacity against a changing background; occlusion remains uncertain.",
+        "Lock horizontal position means a common initial spawn X only. Relative X motion remains in the preset. Original event positions are retained in RecordedHits and can be used by turning lockSpawnX off.",
+        "Clear birth observations hidden by subsequent hits may use a measured family motion profile; motionInferred marks these completions and their disappearance is not claimed as observed.",
+        "Local PP-OCR word detection/recognition and glyph templates estimate digits with separate confidence; unknown text falls back to 189. Font appearance is approximated, not recovered.",
+        "Low-contrast/occluded hits can be missed; correlation measures template agreement, not correctness probability."
+    ],
+    "limitAnalysisRegion": true,
+    "analysisRegion": {
+        "serializedVersion": "2",
+        "x": 75.0,
+        "y": 89.0,
+        "width": 119.0,
+        "height": 163.0
+    },
+    "timeBasis": "MP4 presentation timestamps",
+    "motionProfiles": [
+        {
+            "family": 1,
+            "sourceTracks": 2,
+            "duration": 0.5,
+            "horizontalPixels": 32.5390625,
+            "risePixels": 84.0,
+            "peakScale": 1.0,
+            "initialHeight": 19.0
+        }
+    ]
+}
